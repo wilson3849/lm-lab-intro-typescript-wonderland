@@ -62,5 +62,25 @@ export function attendATeaParty() {
 
 function setTheTable(): Table {
 	// 👉 FIXME ❌
-	return { seats: [] };
+	return { seats: [
+			{
+				drink: {
+					type: 'Tea',
+					poured: true,
+				},
+			},
+			{
+				drink: {
+					type: 'Tea',
+					poured: true,
+				},
+			},
+			{
+				drink: {
+					type: 'Tea',
+					poured: true,
+				},
+			},			
+		],
+	 };
 }
